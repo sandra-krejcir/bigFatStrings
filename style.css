@@ -1,0 +1,22 @@
+#interface {
+  background-color: lightgray;
+  border-radius: 0.4em;
+  width: 40vw;
+  font-family: "Courier New", Courier, monospace;
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 0.2em;
+}
+
+input[type="text"] {
+  width: calc(100% - 1em);
+  text-align: right;
+}
+
+select,
+button {
+  height: 3em;
+  max-width: 39.5vw;
+}
